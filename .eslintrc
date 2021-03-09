@@ -1,0 +1,31 @@
+{
+  "extends": ["react-app", "eslint-config-airbnb"],
+  "rules": {
+    "import/extensions": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, { "ignore": ["electron"] }],
+    "linebreak-style": 0,
+    "global-require": 0
+  },
+  "parser": "eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  },
+  "env": {
+      "node": true,
+      "es6": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "settings": {
+    "ecmascript": 6
+  }
+  // "ecmaFeatures": {
+  //   "jsx": true
+  // }
+}
